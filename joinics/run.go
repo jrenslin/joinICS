@@ -22,7 +22,7 @@ func Run() {
 		fmt.Println("Set settings.")
 	default:
 		fmt.Println("Missing settings")
-		fmt.Println("Run <joinICS --set <inputfolders> <outputfolder>,")
+		fmt.Println("Run joinICS --set <inputfolders> <outputfolder>,")
 		fmt.Println("whereas the input folders must be split by a |")
 	}
 
